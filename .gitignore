@@ -1,36 +1,42 @@
-# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
-
-# dependencies
-node_modules/
-
-# Expo
-.expo/
+# Ignore bundler/build artifacts
+build/
 dist/
-web-build/
-expo-env.d.ts
+.next/
+.turbo/
+node_modules/
+*.log
 
-# Native
-*.orig.*
-*.jks
-*.p8
-*.p12
-*.key
-*.mobileprovision
-
-# Metro
-.metro-health-check*
-
-# debug
-npm-debug.*
-yarn-debug.*
-yarn-error.*
-
-# macOS
+# Ignore OS generated files
 .DS_Store
-*.pem
+Thumbs.db
 
-# local env files
-.env*.local
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+*.swp
+*.swo
 
-# typescript
-*.tsbuildinfo
+# Ignore environment variables
+.env
+.env*
+!.env.example
+
+# Ignore local configuration files
+config.local.json
+
+# Ignore Expo / React Native specific build artifacts
+ios/build/
+android/build/
+android/app/build/
+android/gradle/
+*.keystore
+
+# Ignore cached files
+.cache/
+__pycache__/
+*.pyc
+
+# Ignore test reports and coverage
+coverage/
+.nyc_output/
+junit.xml
