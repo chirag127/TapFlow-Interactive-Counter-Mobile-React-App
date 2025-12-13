@@ -1,62 +1,32 @@
-# Pull Request: Architectural Review and Verification
+# Pull Request Template for TapCounter-Engagement-Analytics-React-Native-Expo-App
 
-**Please fill out the sections below completely. A successful merge requires full compliance with the Apex Authority Standards.**
+## Description of Changes:
+Please provide a detailed description of the changes made in this pull request, including any new features, bug fixes, or improvements.
 
----
+## Related Issues:
+If this pull request is related to a specific issue, please provide the issue number(s) below:
+* Fixes #<issue_number>
+* Closes #<issue_number>
 
-## 1. PR Summary & Intent
+## Changes Include:
+* [ ] New feature
+* [ ] Bug fix
+* [ ] Improvement
+* [ ] Documentation update
+* [ ] Other (please specify)
 
-**Describe the change:**
-<!-- Briefly explain what this PR achieves (e.g., "Refactors gesture handling component to use NativeDriver" or "Fixes state synchronization bug in gesture logging"). -->
+## Testing and Verification:
+Please describe the testing and verification process used to validate the changes made in this pull request, including any relevant test cases or scenarios.
 
-**Related Issue(s):**
-<!-- Link to the associated issue ticket, e.g., Closes #123 -->
+## API Documentation (if applicable):
+If this pull request includes changes to the API, please provide a brief description of the changes and any updates to the API documentation.
 
-## 2. Type of Change
+## Screenshots or Videos (if applicable):
+If this pull request includes visual changes, please provide screenshots or videos demonstrating the changes.
 
-Check all that apply:
+## Checklist:
+* [ ] I have tested the changes locally and verified they work as expected.
+* [ ] I have updated the documentation to reflect the changes made.
+* [ ] I have included any necessary test cases or scenarios to validate the changes.
 
-- [ ] 🧪 **Testing:** Adding missing tests or fixing broken tests.
-- [ ] 🐛 **Bug Fix:** Non-breaking change that fixes an issue (other than tests).
-- [ ] ✨ **New Feature:** Non-breaking change that adds functionality.
-- [ ] 💥 **Breaking Change:** Major change that requires consumer updates (must justify).
-- [ ] 🧹 **Refactor:** Code cleanup without changing external behavior.
-- [ ] 🎨 **Style/Linting:** Changes that do not affect the meaning of the code (white-space, formatting, lint rule changes).
-- [ ] 📚 **Documentation:** Updating documentation only.
-
-## 3. Technical Deep Dive (Apex Mandate Compliance)
-
-This section ensures alignment with the **TapCount-Gesture-Tracker-Mobile-App** architectural blueprint.
-
-### A. Architectural Adherence
-
-- [ ] **SOLID:** Are the new changes adhering to SOLID principles? (Specific component:
-  <!-- e.g., Single Responsibility Principle applied to GestureService? -->
-  )
-- [ ] **DRY:** Is redundant logic eliminated? If new logic was introduced, is it modularized?
-- [ ] **Performance Impact:** Does this change introduce significant rendering jank or excessive state updates? (React Native optimization focus)
-
-### B. Testing Verification
-
-- [ ] **Unit Tests:** Were new unit tests added/updated for modified components? (Target: `GestureHandler.test.tsx`)
-- [ ] **Snapshot/Visual Tests:** If UI changed, were necessary snapshots updated? (If applicable)
-- [ ] **E2E Coverage:** Does this change impact any Playwright/Detox flows? (If applicable)
-
-### C. State Management
-
-- [ ] **Immutability:** Are state updates handled immutably (e.g., using spread operators on state objects)?
-- [ ] **Context/Redux Usage:** If context or global state is modified, is the dependency tree minimized?
-
-## 4. Self-Review Checklist
-
-**CRITICAL items before requesting review:**
-
-- [ ] My code passes all local linting checks (`npm run lint`).
-- [ ] My code builds successfully (`npm run build` or `expo prebuild`).
-- [ ] I have reviewed the code for potential security vulnerabilities (especially sensitive data handling in gestures).
-- [ ] Documentation (internal comments, README updates) is current.
-- [ ] **AGENTS.md** alignment: Does this PR respect the directives laid out in the project's AI Agent directives?
-
-## 5. Screenshots / Videos (If Applicable)
-
-<!-- Paste before/after comparison images or GIFs demonstrating the functional change. -->
+By submitting this pull request, I certify that I have read and agree to the terms outlined in the [Contributing Guidelines](https://github.com/chirag127/TapCounter-Engagement-Analytics-React-Native-Expo-App/blob/main/CONTRIBUTING.md) and [Security Guidelines](https://github.com/chirag127/TapCounter-Engagement-Analytics-React-Native-Expo-App/blob/main/SECURITY.md) for the TapCounter-Engagement-Analytics-React-Native-Expo-App repository.
