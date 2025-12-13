@@ -1,58 +1,33 @@
 # Bug Report
+## Description
+Please provide a detailed description of the bug you are experiencing, including the steps to reproduce it and the expected behavior.
 
-Thank you for reporting a bug! Please provide as much detail as possible to help us diagnose and fix the issue.
+### Steps to Reproduce
+1. 
+2. 
+3. 
 
---- **Please do NOT remove any lines below this marker** ---
-- **Agent Name:**
-- **Agent Version:**
-- **Bug Detected At:**
---- **Please do NOT remove any lines above this marker** ---
+### Expected Behavior
 
-## 1. Summary
+### Actual Behavior
 
-A concise, descriptive title for the bug.
+## Environment
+* **React Native Version:** 
+* **Expo Version:** 
+* **Device/Platform:** 
+* **OS Version:** 
 
-## 2. Environment
+## Code Snippet (if applicable)
+javascript
+// paste relevant code snippet here
 
-*   **Device/Platform:** (e.g., iOS 17, Android 14, macOS Sonoma, Windows 11)
-*   **App Version:** (e.g., `TapTrack-Mobile-App-React-Native-Expo` v1.2.3)
-*   **React Native Version:** (If known)
-*   **Expo SDK Version:** (If known)
-*   **Relevant Libraries/Dependencies:** (List any critical dependencies that might be involved)
 
-## 3. Steps to Reproduce
+## Additional Information
+Please provide any additional information that might be helpful in resolving the issue, such as error messages or stack traces.
 
-Please provide a clear, step-by-step guide to reproduce the bug. Be as specific as possible.
+Before submitting this issue, please ensure you have:
+* Checked the [README.md](https://github.com/chirag127/TapCounter-Engagement-Analytics-React-Native-Expo-App/blob/main/README.md) for troubleshooting guides
+* Searched for similar issues in the [issue tracker](https://github.com/chirag127/TapCounter-Engagement-Analytics-React-Native-Expo-App/issues)
+* Reviewed the [contribution guidelines](https://github.com/chirag127/TapCounter-Engagement-Analytics-React-Native-Expo-App/blob/main/CONTRIBUTING.md)
 
-1.  Go to...
-2.  Click on...
-3.  Enter...
-4.  Observe...
-
-## 4. Expected Behavior
-
-What did you expect to happen?
-
-## 5. Actual Behavior
-
-What actually happened? Please describe the observed behavior, including any error messages, crashes, or unexpected UI changes.
-
-## 6. Screenshots/Recordings
-
-If possible, please attach screenshots or a screen recording demonstrating the bug. This is often the most helpful part of a bug report.
-
-## 7. Additional Context
-
-Any other information that might be relevant to the bug, such as:
-*   When did it start happening?
-*   Are there specific conditions under which it occurs?
-*   Has anything changed recently in your setup?
-*   Any workarounds you've found?
-
-## 8. Console Logs (If Applicable)
-
-If you have access to device logs or developer console output, please paste relevant snippets here.
-
---- 
-
-*This template is designed to align with the rigorous standards of the Apex Technical Authority, ensuring all reports contribute effectively to the maintainance and evolution of `TapTrack-Mobile-App-React-Native-Expo`.*
+By submitting this issue, you agree to the terms outlined in our [code of conduct](https://github.com/chirag127/TapCounter-Engagement-Analytics-React-Native-Expo-App/blob/main/SECURITY.md).
